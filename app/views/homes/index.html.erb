@@ -1,0 +1,389 @@
+<section>
+  <div class='container-fluid main' id="my_home"">
+    <div class='row justify-content-center pt-5'>
+      <div class='col-lg-5 col-sm-6 pt-5 p-5'>
+        <h5 class="main-para mt-5">Hi, it's me</h5>
+        <h2>AQSA ALTAF</h2>
+        <h4>And I'm a Full Stack Developer</h4>
+        <p>I am an experienced full stack Ruby on Rails developer with good problem solving skills.</p>
+        <div class="row">
+          <div class="col-1">
+            <div class="social">
+              <%= link_to image_tag("facebook.png")%>
+            </div>
+          </div>
+          <div class="col-1">
+            <div class="social">
+              <%= link_to image_tag("linkdin.png")%>
+            </div>
+          </div>
+          <div class="col-1">
+            <div class="social">
+              <%= link_to image_tag("git.png")%>
+            </div>
+          </div>
+          <div class="col-1">
+            <div class="social">
+              <%= link_to image_tag("insta.png")%>
+            </div>
+          </div>
+        </div>
+        <%= link_to "Download CV", homes_path, class:"btn btn-cv rounded-pill" %>
+      </div>
+      <div class='col-lg-4 col-sm-5'>
+        <%= image_tag('Banner Image.png', class:"banner")%>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class='container-fluid second pb-5' id="about_me">
+    <h2 class="text-center pt-5" style="text-decoration: underline; color: white;">About <span style="color:#F86F03; ">Me</span></h2>
+    <div class='row justify-content-center pt-5'>
+      <div class='col-lg-3 col-sm-2 p-5 mt-2'>
+        <%= image_tag('me.jpeg', class:"me")%>
+      </div>
+      <div class='col-lg-5 col-sm-5 pt-5 p-4'>
+        <h4 class="mt-5">Full Stack Developer & </br>Ruby on Rails(ROR)</h4>
+        <p class="mt-4">I am an experienced full stack Ruby on Rails developer with good problem solving skills. I will develop your website with clean code and at reasonable price.The website will be responsive and good UI expcerience. You just need to contact me and tell me your details.</p>
+        <p>You will not be disappoint after seeing the work.Waiting for working with you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class='container-fluid third pb-5' id="services">
+    <h2 class="text-center pt-5" style="text-decoration: underline; color: white;">My <span style="color:#F86F03; ">Services</span></h2>
+    <div class='row' style="justify-content: center;">
+      <div class="col-lg-3 col-sm-6">
+        <div class="row justify-content-evenly pt-5">
+          <div class='col mt-5'>
+            <div class="card" style="width: 18rem;border-radius: 16px; height:300px">
+              <%= image_tag('web.png')%>
+              <div class="card-body">
+                <h5 class="text-center mt-2 mb-2">Websites Development</h5>
+                <p class="card-text">We are providing the services of website development with user eye catching view and easyness.</p>
+              </div>
+            </div>
+          </div>
+          <div class='col mt-5'>
+            <div class="card" style="width: 18rem;border-radius: 16px;height:300px">
+              <%= image_tag('mobile.png')%>
+              <div class="card-body">
+                <h5 class="text-center mt-2 mb-2">App Development</h5>
+                <p class="card-text">The app development is common now to all the websites we will provide you the app version of your website also.</p>
+              </div>
+            </div>
+          </div>
+          <div class='col mt-5'>
+            <div class="card" style="width: 18rem;border-radius: 16px;height:300px">
+              <%= image_tag('icons8-frontend-32.png')%>
+              <div class="card-body">
+                <h5 class="text-center mt-2 mb-2">Frontend Development</h5>
+                <p class="card-text">The service include the frontend development of the website with user friendly interaction and easy to understand design.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="row justify-content-evenly pt-5">
+          <div class='col mt-5'>
+            <div class="card" style="width: 18rem;border-radius: 16px;height:300px">
+              <%= image_tag('icons8-backend-developer-32.png')%>
+              <div class="card-body">
+                <h5 class="text-center mt-2 mb-2">Backend Development</h5>
+                <p class="card-text">We are providing the backend development with clean and neat code and integration of backend with frontend all the functionality.</p>
+              </div>
+            </div>
+          </div>
+          <div class='col mt-5'>
+            <div class="card" style="width: 18rem;border-radius: 16px;height:300px">
+              <%= image_tag('icons8-aeroplane-67.png')%>
+              <div class="card-body">
+                <h5 class="text-center mt-2 mb-2">Website Deployment</h5>
+                <p class="card-text">Once the website will be complete we will deploy it on any server you want so hosting will be possible.</p>
+              </div>
+            </div>
+          </div>
+          <div class='col mt-5'>
+            <div class="card" style="width: 18rem;border-radius: 16px;height:300px">
+              <%= image_tag('icons8-debugging-64.png')%>
+              <div class="card-body">
+                <h5 class="text-center mt-2 mb-2">Debugging</h5>
+                <p class="card-text">The code always contain that bug which will crash the website we will handle these bugs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="row justify-content-evenly pt-5">
+          <div class='col mt-5'>
+            <div class="card" style="width: 18rem;border-radius: 16px;height:300px">
+              <%= image_tag('icons8-testing-58.png')%>
+              <div class="card-body">
+                <h5 class="text-center mt-2 mb-2">Test Cases</h5>
+                <p class="card-text">With the backend also provide the test cases and test them before deployment so the website not crash on runtime</p>
+              </div>
+            </div>
+          </div>
+          <div class='col mt-5'>
+            <div class="card" style="width: 18rem;border-radius: 16px;height:300px">
+              <%= image_tag('icons8-responsive-web-66.png')%>
+              <div class="card-body">
+                <h5 class="text-center mt-2 mb-2">Responsiveness</h5>
+                <p class="card-text">Responsiveness is the key feature of the modern website the website will be reponsive on desired screens.</p>
+              </div>
+            </div>
+          </div>
+          <div class='col mt-5'>
+            <div class="card" style="width: 18rem;border-radius: 16px;height:300px">
+              <%= image_tag('icons8-payment-80')%>
+              <div class="card-body">
+                <h5 class="text-center mt-2 mb-2">Stripe Payment</h5>
+                <p class="card-text">For any online payment acceptance we also implement stripe and configure it for subscription etc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+</section>
+<section>
+  <div style="background-color:#170550;" id="my_skills">
+    <h2 class="text-center pt-5 pb-5" style="text-decoration: underline; color: white; margin-bottom: 0px;"">My <span style="color:#F86F03;">Skills</span></h2>
+  </div>
+  <div class='container-fluid forth pb-5 d-flex justify-content-center align-items-center'>
+    <div class="col-10">
+      <div class="row justify-content-center">
+        <div class="col-1">
+          <p>Ruby</p>
+        </div>
+        <div class="col-lg-6 col-sm-3 pt-1">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80"
+            aria-valuemin="0" aria-valuemax="100" style="width:90%">
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <p>90%</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-1">
+          <p>Rails</p>
+        </div>
+        <div class="col-lg-6 col-sm-3 pt-1">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80"
+            aria-valuemin="0" aria-valuemax="100" style="width:90%">
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <p>90%</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-1">
+          <p>HTML-5</p>
+        </div>
+        <div class="col-lg-6 col-sm-3 pt-1">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80"
+            aria-valuemin="0" aria-valuemax="100" style="width:90%">
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <p>90%</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-1">
+          <p>CSS</p>
+        </div>
+        <div class="col-lg-6 col-sm-3 pt-1">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80"
+            aria-valuemin="0" aria-valuemax="100" style="width:85%">
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <p>85%</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-1">
+          <p>Bootstrap</p>
+        </div>
+        <div class="col-lg-6 col-sm-3 pt-1">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80"
+            aria-valuemin="0" aria-valuemax="100" style="width:85%">
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <p>85%</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-1">
+          <p>Javascript</p>
+        </div>
+        <div class="col-lg-6 col-sm-3 pt-1">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80"
+            aria-valuemin="0" aria-valuemax="100" style="width:75%">
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <p>75%</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-1">
+          <p>POstgreSQL</p>
+        </div>
+        <div class="col-lg-6 col-sm-3 pt-1">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80"
+            aria-valuemin="0" aria-valuemax="100" style="width:90%">
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <p>90%</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-1">
+          <p>MySQL</p>
+        </div>
+        <div class="col-lg-6 col-sm-3 pt-1">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80"
+            aria-valuemin="0" aria-valuemax="100" style="width:80%">
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <p>80%</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-1">
+          <p>Docker</p>
+        </div>
+        <div class="col-lg-6 col-sm-3 pt-1">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80"
+            aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <p>70%</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-1">
+          <p>JQuery</p>
+        </div>
+        <div class="col-lg-6 col-sm-3 pt-1">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80"
+            aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <p>70%</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container-fluid work pb-5" id="my_work">
+    <h2 class="text-center pt-5 pb-5" style="text-decoration: underline; color: white;">My Work</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-2 col-sm-3 mt-5 p-3">
+        <div class="card work-card">
+          <%= image_tag('personal.png',class:"card-img-top image")%>
+          <div class="overlay">
+          <div class="text">Personal Protfolio</div>
+          </div>
+        </div>
+      </div> 
+      <div class="col-lg-2 col-sm-3 mt-5 p-3">
+        <div class="card work-card">
+          <%= image_tag('bank.png',class:"card-img-top image")%>
+          <div class="overlay">
+            <div class="text">Online banking System</div>
+          </div>
+        </div>
+      </div> 
+      <div class="col-lg-2 col-sm-3 mt-5 p-3">
+        <div class="card work-card">
+          <%= image_tag('ecommerece.png',class:"card-img-top image")%>
+          <div class="overlay">
+            <div class="text">Ecommerece Website</div>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-2 col-sm-3 mt-5 p-3">
+        <div class="card work-card">
+          <%= image_tag('office.png',class:"card-img-top image")%>
+          <div class="overlay">
+            <div class="text">Office Management System</div>
+          </div>
+        </div>
+      </div> 
+      <div class="col-lg-2 col-sm-3 mt-5 p-3">
+        <div class="card work-card">
+          <%= image_tag('chat.png',class:"card-img-top image")%>
+          <div class="overlay">
+            <div class="text">Online Chatting System</div>
+          </div>
+        </div>
+      </div>  
+      <div class="col-lg-2 col-sm-3 mt-5 p-3">
+        <div class="card work-card">
+          <%= image_tag('camp.png',class:"card-img-top image")%>
+          <div class="overlay">
+            <div class="text">Camp Encounter Website</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container-fluid footer pb-5" id="hire_me">
+    <h2 class="text-center pt-5 pb-5" style="text-decoration: underline; color: white;">Contact Us</h2>
+    <div class="row justify-content-center pb-5">
+      <div class="col-lg-3 col-sm-5 mt-5">
+        <p class="mt-4"><%= image_tag("phone.png")%><span class="icons">+92 3194773106</span></p>
+        <p class="mt-4"><%= image_tag("envelope.png")%><span class="icons">aqsaaltaf01@gmail.com</span></p>
+        <p class="mt-4"><%= image_tag("address.png")%><span class="icons">Lahore, Pakistan</span></p>
+      </div>
+      <div class="col-lg-5 col-sm-6 p-4">
+        <%= render "form" %>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="foot"> 
+    <p class="text-center">Copywrite & Copy : 2023 | All Right Reserved by RIEAD</p>
+  </div>
+</section>

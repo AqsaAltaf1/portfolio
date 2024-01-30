@@ -1,0 +1,250 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ */
+ @import "bootstrap";
+
+ body {
+   overflow-x: hidden;
+ }
+ 
+ .logo {
+   width: 160px;
+   height: 60px;
+   margin-left: 100px;
+ }
+ 
+ .navbar {
+   background-color: #170550;
+ }
+ 
+ .navbar-dark .navbar-nav .nav-link {
+   color: white;
+   padding-right: 1.0rem;
+   padding-left: 1.0rem;
+ }
+ 
+ .navbar-toggler-icon {
+   color: white;
+ }
+ 
+ .navbar-dark .navbar-toggler {
+   border-color: white;
+ }
+ 
+ .navbar-collapse {
+   margin-left: 50px;
+ }
+ 
+ .hire {
+   margin-left: 250px;
+   color: #170550;
+ }
+ 
+ .main,
+ .third,
+ .work {
+   background-color: #31065A;
+   padding-bottom: 50px;
+ }
+ 
+ .main-para {
+   color: #F86F03;
+   margin-bottom: 0px;
+ }
+ 
+ .main h2,
+ h4,
+ p {
+   color: white;
+ }
+ 
+ .btn-cv {
+   color: white;
+   background-color: #F86F03;
+   padding: 5px 10px 5px 10px;
+   margin-top: 20px;
+ }
+ 
+ .banner {
+   width: 90%;
+   height: 100%;
+ }
+ 
+ .second,
+ .forth,
+ .footer {
+   background-color: #170550;
+ }
+ 
+ .social {
+   border: 2px solid white;
+   border-radius: 100%;
+   width: 30px;
+   height: 30px;
+ }
+ 
+ .social img {
+   margin-top: 6px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+ .me {
+   width: 100%;
+   height: 100%;
+   border-radius: 15px;
+ }
+ 
+ .third img {
+   height: 63px;
+   width: 60px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   margin-top: 20px;
+ }
+ 
+ .third h5,
+ p {
+   color: #170550;
+ }
+ 
+ .card-text {
+   text-align: center;
+   padding: 10px;
+ }
+ 
+ .main p {
+   color: white;
+ }
+ 
+ .second p {
+   color: white;
+ }
+ 
+ .footer p {
+   color: white;
+ }
+ 
+ .forth p {
+   color: white;
+   font-size: 15px;
+ }
+ 
+ .progress-bar {
+   background-color: #F86F03;
+ }
+ 
+ .work img {
+   background-size: cover;
+   height: 180px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #170550;
+ }
+ 
+ .work-card {
+   border: 0px;
+   position: relative;
+   width: 100%;
+ }
+ 
+ 
+ .image {
+   display: block;
+   width: 100%;
+   height: auto;
+ }
+ 
+ .overlay {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: #151516;
+   opacity: 0.9;
+   overflow: hidden;
+   width: 100%;
+   height: 0;
+   transition: .5s ease;
+ }
+ 
+ .work-card:hover .overlay {
+   height: 100%;
+ }
+ 
+ .text {
+   color: white;
+   font-size: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+ }
+ 
+ .icons {
+   margin-left: 20px;
+ }
+ 
+ .btn-save {
+   background-color: #43366A;
+   border-radius: 27px;
+   color: white;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ 
+ .form-control {
+   background-color: #43366A;
+   border: 0px;
+   color: white;
+   border-radius: 16px;
+ }
+ 
+ .form-control::placeholder {
+   color: white;
+   opacity: 0.7;
+   padding-left: 15px;
+ }
+ 
+ .foot {
+   background-color: #31065A;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+ 
+ .foot p {
+   color: white;
+   margin-bottom: 0px;
+ }
